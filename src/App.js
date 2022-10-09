@@ -5,7 +5,11 @@ import'ag-grid-community/dist/styles/ag-grid.css'
 import'ag-grid-community/dist/styles/ag-theme-material.css';
 
 function App() {
-  
+  const [uInput, setUInput] = useState({
+    date:'',
+    description:'',
+    priority:''
+    })
 
   const [todos, setTodos] = useState([]) 
 
